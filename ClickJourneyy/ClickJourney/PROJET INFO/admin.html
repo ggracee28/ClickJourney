@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="admin.css">
+  <title>INFLYENCE - Administration</title>
+  <script src="https://kit.fontawesome.com/d669ac8659.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- HEADER IDENTIQUE -->
+  <header class="header">
+    <div class="nav-container">
+      <div class="logo">
+        <img src="logo1.png" alt="Logo INFLYENCE" class="logo-img">INFLYENCE
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="destination.html">Destinations</a>
+        <a href="profil.html">Profil</a>
+        <a href="admin.html">Admin</a>
+        <a href="connexion.html">Connexion</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- SECTION ADMINISTRATION -->
+  <section class="section admin-section">
+    <div class="admin-container">
+      <h2>Administration - Liste des utilisateurs</h2>
+      <table class="admin-table">
+        <thead>
+          <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Email</th>
+            <th>Catégorie VIP</th> 
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Exemple d'utilisateur 1 -->
+          <tr>
+            <td>Dupont</td>
+            <td>Jean</td>
+            <td>jean.dupont@example.com</td>
+            <td>Oui</td> 
+            <td>
+              <a href="profil.html" class="view-btn">Voir Profil</a>
+              <button class="delete-btn">Supprimer</button>
+            </td>
+          </tr>
+          <!-- Exemple d'utilisateur 2 -->
+          <tr>
+            <td>Martin</td>
+            <td>Alice</td>
+            <td>alice.martin@example.com</td>
+            <td>Non</td>
+            <td>
+              <a href="#" class="view-btn">Voir Profil</a>
+              <button class="delete-btn">Supprimer</button>
+            </td>
+          </tr>
+          <!-- Utilisateurs supplémentaires -->
+          <tr>
+            <td>Leroy</td>
+            <td>Paul</td>
+            <td>paul.leroy@example.com</td>
+            <td>Oui</td>
+            <td>
+              <a href="#" class="view-btn">Voir Profil</a>
+              <button class="delete-btn">Supprimer</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Durand</td>
+            <td>Emma</td>
+            <td>emma.durand@example.com</td>
+            <td>Non</td>
+            <td>
+              <a href="#" class="view-btn">Voir Profil</a>
+              <button class="delete-btn">Supprimer</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Bernard</td>
+            <td>Lucas</td>
+            <td>lucas.bernard@example.com</td>
+            <td>Oui</td>
+            <td>
+              <a href="#" class="view-btn">Voir Profil</a>
+              <button class="delete-btn">Supprimer</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</body>
+</html>

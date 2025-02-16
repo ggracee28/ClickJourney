@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="destination.css">
+    <title>INFLYENCE-Destination</title>
+    <script src="https://kit.fontawesome.com/d669ac8659.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+              <img src="logo1.png" alt="Logo INFLYENCE" class="logo-img">INFLYENCE</div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">Accueil</a>
+                <a href="destination.html">Destinations</a>
+                <a href="profil.html">Profil</a>
+                <a href="admin.html">Admin</a>
+                <a href="connexion.html">Connexion</a>
+            </nav>
+        </div>
+    </header>
+    
+    <!--Destination-->
+    <section class="section" id="destinations">
+        <div class="section-title">
+            <h2>Choisissez votre légende. Vivez son histoire.</h2>
+            <p>Decouvrez nos voyages</p>
+            <!-- Barre de recherche -->
+            <!-- Barre de recherche -->
+			<div class="search-box">
+			  <input type="text" placeholder="Recherchez une destination..." class="search-input">
+			  <button class="search-btn"><i class="fa fa-search"></i></button>
+			  
+			  <!-- Drop down pour la fourchette de prix -->
+			  <select id="price-filter">
+				<option value="all">Toutes les gammes</option>
+				<option value="low">Moins de 4000£</option>
+				<option value="mid">Entre 4000£ et 5000£</option>
+				<option value="high">5000£ et plus</option>
+			  </select>
+
+			  <!-- Drop down pour le filtre par pays -->
+			  <select id="country-filter">
+				<option value="all">Tous les pays</option>
+				<option value="bresil">Brésil</option>
+				<option value="etats-unis">États-Unis</option>
+				<option value="royaume-uni">Royaume-Uni</option>
+				<option value="vatican">Vatican</option>
+				<option value="inde">Inde</option>
+				<option value="maroc">Maroc</option>
+				<option value="afrique-du-sud">Afrique du Sud</option>
+			  </select>
+			</div>
+        </div>
+        <div class="destination-grid">
+
+            <div class="destination-card">
+                <div class="destination-img">
+                    <img src="OIP.jpg" alt="IMG">
+                </div>
+            <div class="destination-info">
+                <h3>Neymar, Bresil</h3>
+                <p>Vivez l'ascension dun prodige du football : des favelas de son enfance aux stades mythiques.  Ressentez la passion du Brésil.
+                </p>
+                <div class="price">A partir de 5000£</div>
+            </div>
+            </div>
+        
+
+        
+        <div class="destination-card">
+            <div class="destination-img">
+                <img src="elon.jpg" alt="IMG">
+            </div>  
+        <div class="destination-info">
+            <h3>Elon Musk, Etats-Unis</h3>
+            <p>Entrez dans lunivers de linnovation : testez une Tesla, visitez SpaceX et plongez au cœur de la Silicon Valley.
+            </p>
+            <div class="price">A partir de 6000£</div>
+        </div>
+        </div>
+
+        
+        <div class="destination-card">
+            <div class="destination-img">
+                <img src="naomi.jpg" alt="IMG">
+            </div>
+        <div class="destination-info">
+            <h3>Naomi Campbell, Royaume-Uni</h3>
+            <p>Découvrez le monde du mannequinat à Londres. Défilé, séance photo et immersion dans lunivers de la mode vous attendent.
+            </p>
+            <div class="price">A partir de 4000£</div>
+        </div>
+        </div>
+        
+
+        
+
+        <div class="destination-card">
+            <div class="destination-img">
+                <img src="pape.jpg" alt="IMG">
+            </div>
+        <div class="destination-info">
+            <h3>Pape Francois, Vatican</h3>
+            <p>Immergez-vous dans la spiritualité du Vatican, explorez les coulisses de la papauté et vivez au rythme des traditions religieuses.
+            </p>
+            <div class="price">A partir de 2500£</div>
+        </div>
+        </div>
+
+        
+        <div class="destination-card">
+            <div class="destination-img">
+                <img src="priyanka.jpg" alt="IMG">
+            </div>
+        <div class="destination-info">
+            <h3>Priyanka Chopra, Inde</h3>
+            <p>Marchez sur les traces dune star de Bollywood : danse, tournage et glamour à Mumbai. Une immersion dans le cinéma indien.
+            </p>
+            <div class="price">A partir de 5000£</div>
+        </div>
+        </div>
+        
+
+
+        
+        <div class="destination-card">
+            <div class="destination-img">
+                <img src="jamel.jpg" alt="IMG">
+            </div>
+        <div class="destination-info">
+            <h3>Jamel Debouzze, Maroc</h3>
+            <p>VDécouvrez lhumour et lénergie de Jamel à travers Marrakech. Stand-up, festival du rire et escapade dans le désert vous attendent.
+            </p>
+            <div class="price">A partir de 3500£</div>
+        </div>
+        </div>
+        
+
+        
+        <div class="destination-card">
+            <div class="destination-img">
+                <img src="nelson.jpg" alt="IMG">
+            </div>
+        <div class="destination-info">
+            <h3>Nelson Mandela, Afrique du Sud</h3>
+            <p>Revivez le combat dun homme qui a changé lhistoire. De la prison de Robben Island aux discours de liberté, suivez son parcours inspirant.
+            </p>
+            <div class="price">A partir de 4000£</div>
+        </div>
+        </div>
+        
+
+    </div>
+    </section>
+	
+<script>
+  // Sélection des éléments
+  const searchInput = document.querySelector('.search-input');
+  const priceFilter = document.getElementById('price-filter');
+  const countryFilter = document.getElementById('country-filter');
+  const destinationCards = document.querySelectorAll('.destination-card');
+
+  // Fonction qui extrait le nombre de la chaîne "A partir de 5000£"
+  function extractPrice(priceText) {
+    // Supprime tous les caractères non numériques et retourne un nombre entier
+    return parseInt(priceText.replace(/\D/g, ''), 10);
+  }
+
+  // Fonction qui filtre les cartes en fonction des critères sélectionnés
+  function filterCards() {
+    const keyword = searchInput.value.toLowerCase();
+    const selectedPrice = priceFilter.value;
+    const selectedCountry = countryFilter.value;  // valeur en minuscule
+
+    destinationCards.forEach(card => {
+      // Récupération du texte complet de la carte (pour la recherche par mot-clé)
+      const cardText = card.textContent.toLowerCase();
+      const matchesKeyword = cardText.includes(keyword);
+
+      // Extraction du prix depuis l'élément .price
+      const priceElement = card.querySelector('.price');
+      const price = extractPrice(priceElement.textContent);
+
+      // Vérification du filtre par prix
+      let matchesPrice = false;
+      if (selectedPrice === 'all') {
+        matchesPrice = true;
+      } else if (selectedPrice === 'low') {
+        // Moins de 4000£
+        matchesPrice = (price < 4000);
+      } else if (selectedPrice === 'mid') {
+        // Entre 4000£ (inclus) et 5000£ (exclus)
+        matchesPrice = (price >= 4000 && price < 5000);
+      } else if (selectedPrice === 'high') {
+        // 5000£ et plus
+        matchesPrice = (price >= 5000);
+      }
+
+      // Extraction du pays depuis le titre (supposé être sous la forme "Nom, Pays")
+      const h3Element = card.querySelector('.destination-info h3');
+      let country = "";
+      if (h3Element) {
+        const parts = h3Element.textContent.split(',');
+        if (parts.length > 1) {
+          country = parts[1].trim().toLowerCase();
+        }
+      }
+      // Vérification du filtre par pays
+      const matchesCountry = (selectedCountry === 'all' || country === selectedCountry);
+
+      // Affiche la carte si elle correspond à tous les critères
+      if (matchesKeyword && matchesPrice && matchesCountry) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  // Ajout des écouteurs d'événements
+  searchInput.addEventListener('input', filterCards);
+  priceFilter.addEventListener('change', filterCards);
+  countryFilter.addEventListener('change', filterCards);
+</script>
+
+
+</body>
+</html>
