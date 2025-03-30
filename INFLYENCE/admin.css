@@ -1,0 +1,141 @@
+/* ============================= */
+/*         ADMINISTRATION        */
+/* ============================= */
+
+/* Section Administration */
+.admin-section {
+  padding-top: 100px; /* pour compenser la hauteur du header */
+  padding: 6rem 2rem;
+  background: white;
+}
+
+.admin-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.admin-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--secondary-color);
+  font-size: 2.8rem;
+}
+
+/* Styles du tableau */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table thead {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Style des champs utilisateurs */
+.user-field {
+  display: inline-block;
+  margin-right: 10px;
+  color: #333;
+}
+
+/* Bouton Modifier */
+.edit-btn {
+  padding: 5px 10px;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Bouton Supprimer */
+.delete-btn {
+  padding: 5px 10px;
+  background-color: #e74c3c;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b; /* Rouge plus foncé */
+  transform: scale(1.05); /* Effet d'agrandissement au survol */
+}
+
+/* Bouton Voir Profil */
+.view-btn {
+  padding: 5px 10px;
+  background-color: #3498db; /* Bleu */
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.view-btn:hover {
+  background-color: #2980b9; /* Bleu foncé au survol */
+  transform: scale(1.05); /* Effet d'agrandissement */
+}
+
+/* Responsive : version tablette/mobile */
+@media (max-width: 768px) {
+  .admin-table thead {
+    display: none;
+  }
+  .admin-table,
+  .admin-table tbody,
+  .admin-table tr,
+  .admin-table td {
+    display: block;
+    width: 100%;
+  }
+  .admin-table tr {
+    margin-bottom: 1rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .admin-table td {
+    padding: 1rem;
+    text-align: right;
+    position: relative;
+  }
+  .admin-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 1rem;
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+  }
+}

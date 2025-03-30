@@ -1,0 +1,155 @@
+/*STYLE COMPLET */
+:root{
+    --primary-color:blue;
+    --secondary-color:black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    padding-top: 100px; /* Ajuste cette valeur en fonction de la hauteur du header */
+}
+
+
+.section{
+    padding: 6rem 2rem; 
+    background: white;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-title h2{
+    font-size: 2.8rem;
+    color: var(--secondary-color);
+    margin-bottom: rem;
+    font-weight: 600;
+}
+
+.section-title p{
+    color: gray;
+    font-size: 1.3rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.destination-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2.5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    grid-auto-rows: 1fr;
+}
+/* Style pour le menu déroulant */
+/* Styles communs pour les menus déroulants */
+#price-filter,
+#country-filter {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 25px;
+  font-size: 1rem;
+  background-color: transparent;
+  color: #333;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+
+.destination-card{
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    background: white; 
+}
+
+.destination-img{
+    height: 300px;
+}
+
+.destination-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.destination-card:hover{
+    transform: scale(1.1); 
+}
+
+.destination-info{
+    padding: 2rem; 
+}
+
+.destination info h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+
+.destination-info p{
+    color:gray;
+    font-size: 0.9rem;
+}
+
+.price{
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+    font-weight:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+
+}
+
+
+/* Style pour la barre de recherche */
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search-input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid #ddd;
+    outline: none;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #333;
+    margin-right: 10px;
+}
+
+.search-input::placeholder {
+    color: #bbb;
+}
+
+.search-btn {
+    padding: 10px 15px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-btn:hover {
+    background-color: #0056b3;
+}
+
+
