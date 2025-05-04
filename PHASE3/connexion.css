@@ -1,0 +1,151 @@
+/*STYLE COMPLET */
+:root{
+    --primary-color:blue;
+    --secondary-color:black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(test4.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    background-color: white; /* Garde le header blanc */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 20px 0; /* Ajuste la hauteur du header */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Pour occuper toute la hauteur de l'écran */
+    padding-top: 50px; /* Légère marge pour éviter que le formulaire ne touche le bord supérieur */
+}
+
+.section {
+    padding-top: 100px; /* Ajuste cette valeur en fonction de la hauteur du header */
+    background: rgba(0, 0, 0, 0.7); /* Fond noir semi-transparent */
+    padding: 30px;
+    width: 420px;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.2);
+    backdrop-filter: blur20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Ajoute une ombre */
+    color: rgba(255, 255, 255, 0.8); /* Augmente la visibilité */
+    font-weight: bold;
+
+
+}
+
+
+.section h1 {
+    font: size 30px;
+    text-align:center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+.input-box{
+    width: 100%;
+    position:relative;
+    margin-bottom: 25px; 
+}
+
+
+.input-box input{
+    width: 100%;
+    padding:15px;
+    border-radius: 25px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,0.2);
+    color: white;
+    padding-right: 40px;
+}
+
+
+.input-box input ::placeholder{
+    color: white;
+}
+
+.input-box i{
+    position: absolute;
+    transform: translateY(-50%);
+    right: 20px;
+    top: 50%;
+    color:white;
+}
+
+.remenber-forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    margin-bottom: 25px;
+
+}
+
+.remenber-forgot a , .register-link{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.remenber-forgot a:hover , .register-link{
+    text-decoration: underline;
+}
+
+.login-btn{
+    width:100%;
+    padding:15px;
+    border-radius: 25px;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+
+.login-btn:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255,0.2);
+    color: white;
+}
+
+
+.register-link{
+    text-align: center;
+    margin-top:25px;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

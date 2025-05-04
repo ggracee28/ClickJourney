@@ -1,0 +1,813 @@
+/* Ajout des styles dark mode à la fin du fichier CSS existant */
+
+/* Mode sombre */
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Adaptation des éléments en mode sombre */
+body.dark-mode .header {
+    background: rgba(33, 33, 33, 0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .nav-links a {
+    color: #f0f0f0;
+}
+
+body.dark-mode .nav-links a:hover {
+    color: var(--primary-color);
+}
+
+body.dark-mode .voyage-card {
+    background-color: #2c2c2c;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .voyage-content h3,
+body.dark-mode .section-header h2,
+body.dark-mode .section-header p {
+    color: #f0f0f0;
+}
+
+body.dark-mode .trigger-btn {
+    background: #333;
+}
+/* Styles mode sombre spécifiques à la page destination */
+
+/* Section de destination en mode sombre */
+body.dark-mode .section {
+    background-color: #121212;
+}
+
+body.dark-mode .section-title h2 {
+    color: #f0f0f0;
+}
+
+body.dark-mode .section-title p {
+    color: #c0c0c0;
+}
+
+/* Carte de destination en mode sombre */
+body.dark-mode .destination-card {
+    background-color: #2c2c2c;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .destination-info h3 {
+    color: #f0f0f0;
+}
+
+body.dark-mode .destination-info p {
+    color: #c0c0c0;
+}
+
+body.dark-mode .price {
+    color: #f0f0f0;
+}
+
+/* Filtres et recherche en mode sombre */
+body.dark-mode .search-input,
+body.dark-mode #price-filter,
+body.dark-mode #duration-filter,
+body.dark-mode #continent-filter,
+body.dark-mode #etapes-filter,
+body.dark-mode #sort-by {
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+    border-color: #444;
+}
+
+body.dark-mode .search-input::placeholder {
+    color: #888;
+}
+
+body.dark-mode .search-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+/* Bouton voir détails en mode sombre */
+body.dark-mode .view-btn {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+body.dark-mode .view-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Pagination en mode sombre */
+body.dark-mode .pagination a {
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+    border-color: #444;
+}
+
+body.dark-mode .pagination a.active {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+}
+
+body.dark-mode .pagination a:hover:not(.active) {
+    background-color: #3c3c3c;
+}
+
+
+
+/* MODE SOMBRE POUR LA PAGE PANIER */
+.dark-mode {
+    --primary-color: #4da8ff;
+    --secondary-color: #f4f4f4;
+    --highlight-color: #ff6a33;
+    --background-color: #1a1a1a;
+    --card-shadow: rgba(0, 0, 0, 0.3);
+    --button-hover-color: #69b6ff;
+}
+
+.dark-mode body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Section principale en mode sombre */
+.dark-mode .section {
+    background: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.dark-mode .section-title h2 {
+    color: #f4f4f4;
+}
+
+.dark-mode .section-title p {
+    color: #b0b0b0;
+}
+
+/* Carte de voyage en mode sombre */
+.dark-mode .voyage-item {
+    background-color: #2a2a2a;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Informations du voyage en mode sombre */
+.dark-mode .voyage-info h2 {
+    color: #e0e0e0;
+}
+
+.dark-mode .voyage-info p {
+    color: #b0b0b0;
+}
+
+.dark-mode .voyage-info .price {
+    color: var(--primary-color);
+}
+
+/* Boutons en mode sombre */
+.dark-mode .view-btn,
+.dark-mode .remove-btn {
+    background-color: var(--primary-color);
+}
+
+.dark-mode .view-btn:hover,
+.dark-mode .remove-btn:hover {
+    background-color: var(--button-hover-color);
+}
+
+.dark-mode .remove-btn {
+    background-color: var(--highlight-color);
+}
+
+.dark-mode .remove-btn:hover {
+    background-color: #ff3333;
+}
+
+/* Si le panier est vide */
+.dark-mode .panier-empty {
+    color: #b0b0b0;
+}
+
+/* Pagination en mode sombre */
+.dark-mode .pagination a {
+    background-color: var(--primary-color);
+}
+
+.dark-mode .pagination a:hover {
+    background-color: var(--button-hover-color);
+}
+
+.dark-mode .pagination .active {
+    background-color: var(--highlight-color);
+}
+
+/* Header et navigation en mode sombre (pour cohérence) */
+.dark-mode .header {
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .logo {
+    color: #f4f4f4;
+}
+
+.dark-mode .nav-links a {
+    color: #e0e0e0;
+}
+
+.dark-mode .nav-links a:hover {
+    color: var(--primary-color);
+}
+
+.dark-mode .trigger-btn {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+}
+
+
+
+/* Mode sombre pour profil.php */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Header en mode sombre */
+body.dark-mode .header {
+    background-color: #121212;
+    border-bottom: 1px solid #333;
+}
+
+body.dark-mode .logo {
+    color: #e0e0e0;
+}
+
+body.dark-mode .nav-links a {
+    color: #e0e0e0;
+}
+
+body.dark-mode .hamburger span {
+    background-color: #e0e0e0;
+}
+
+/* Section profil en mode sombre */
+body.dark-mode .profile-section {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode .profile-container {
+    background-color: #1e1e1e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #333;
+}
+
+body.dark-mode .profile-container h2 {
+    color: #e0e0e0;
+    border-bottom: 1px solid #333;
+}
+
+body.dark-mode .profile-field {
+    border-bottom: 1px solid #333;
+}
+
+body.dark-mode .field-label {
+    color: #a0a0a0;
+}
+
+body.dark-mode .field-value {
+    color: #e0e0e0;
+}
+
+/* Boutons en mode sombre */
+body.dark-mode .edit-btn {
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+body.dark-mode .edit-btn:hover {
+    background-color: #3a3a3a;
+}
+
+/* Liens des voyages en mode sombre */
+body.dark-mode .voyages-list li a {
+    color: #7aa6ff;
+}
+
+body.dark-mode .voyages-list li a:hover {
+    color: #a3c2ff;
+    text-decoration: underline;
+}
+
+/* Message "Aucun voyage" en mode sombre */
+body.dark-mode p[style*="color: #666"] {
+    color: #888 !important;
+}
+
+/* Formulaires de modification (si activés via JavaScript) */
+body.dark-mode input[type="text"],
+body.dark-mode input[type="email"],
+body.dark-mode input[type="password"],
+body.dark-mode input[type="date"] {
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+body.dark-mode input[type="text"]:focus,
+body.dark-mode input[type="email"]:focus,
+body.dark-mode input[type="password"]:focus,
+body.dark-mode input[type="date"]:focus {
+    border-color: #7aa6ff;
+    box-shadow: 0 0 5px rgba(122, 166, 255, 0.5);
+}
+
+/* Boutons de sauvegarde (si présents) */
+body.dark-mode .save-btn {
+    background-color: #3366cc;
+    color: #ffffff;
+}
+
+body.dark-mode .save-btn:hover {
+    background-color: #4477dd;
+}
+
+/* Annulation (si présent) */
+body.dark-mode .cancel-btn {
+    background-color: #d32f2f; /* Rouge foncé */
+    color: #ffffff;
+    border: none;
+}
+
+body.dark-mode .cancel-btn:hover {
+    background-color: #f44336; /* Rouge plus clair au survol */
+}
+
+
+/* Mode sombre pour la page d'administration */
+body.dark-mode .admin-section {
+    background: #1a1a1a;
+    color: #f0f0f0;
+  }
+  
+  body.dark-mode .admin-container {
+    background: #242424;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  body.dark-mode .admin-container h2 {
+    color: #3498db; /* Bleu clair pour les titres */
+  }
+  
+  /* Tableau en mode sombre */
+  body.dark-mode .admin-table thead {
+    background-color: #2c3e50; /* Bleu foncé pour l'en-tête */
+  }
+  
+  body.dark-mode .admin-table th,
+  body.dark-mode .admin-table td {
+    border-bottom: 1px solid #444;
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode .admin-table tbody tr:hover {
+    background-color: #333;
+  }
+  
+  /* Boutons en mode sombre */
+  body.dark-mode .edit-btn {
+    background-color: #2980b9;
+  }
+  
+  body.dark-mode .edit-btn:hover {
+    background-color: #3498db;
+  }
+  
+  body.dark-mode .delete-btn {
+    background-color: #c0392b;
+  }
+  
+  body.dark-mode .delete-btn:hover {
+    background-color: #e74c3c;
+  }
+  
+  body.dark-mode .view-btn {
+    background-color: #2980b9;
+  }
+  
+  body.dark-mode .view-btn:hover {
+    background-color: #3498db;
+  }
+  
+  /* Pagination en mode sombre */
+  body.dark-mode .pagination a {
+    background-color: #333;
+    color: #f0f0f0;
+  }
+  
+  body.dark-mode .pagination a.active {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  body.dark-mode .pagination a:hover:not(.active) {
+    background-color: #444;
+  }
+  
+  /* Champ utilisateur en mode sombre */
+  body.dark-mode .user-field {
+    color: #e0e0e0;
+  }
+  
+  /* Version responsive en mode sombre */
+  @media (max-width: 768px) {
+    body.dark-mode .admin-table tr {
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+      background-color: #2a2a2a;
+    }
+  }
+
+
+  /* Style du Mode Sombre pour page voyage_recap.php */
+
+/* Styles généraux */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode .header {
+    background-color: #1a1a1a;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .nav-links a {
+    color: #e0e0e0;
+}
+
+.dark-mode .logo {
+    color: #ffffff;
+}
+
+/* Styles spécifiques à la page recap */
+.dark-mode .recap-container {
+    background-color: #1a1a1a;
+}
+
+.dark-mode .recap-section {
+    border-color: #333;
+    background-color: #232323;
+}
+
+.dark-mode .recap-section-title {
+    color: #e0e0e0;
+}
+
+.dark-mode .recap-item {
+    border-bottom-color: #444;
+}
+
+.dark-mode .option-detail {
+    color: #bbb;
+}
+
+.dark-mode .recap-total {
+    border-top-color: #555;
+    color: #ffffff;
+}
+
+/* Boutons */
+.dark-mode .modify-btn {
+    background-color: #333;
+    color: #e0e0e0;
+    border-color: #555;
+}
+
+.dark-mode .payment-btn {
+    background-color: #2e7d32; /* Vert foncé */
+    color: #ffffff;
+}
+
+.dark-mode .modify-btn:hover {
+    background-color: #444;
+}
+
+.dark-mode .payment-btn:hover {
+    background-color: #3a9d42;
+}
+
+/* Notification panier */
+.dark-mode .panier-notification {
+    background-color: #1e3b1e;
+    color: #7ac97a;
+}
+
+/* Titre et sous-titres */
+.dark-mode .recap-title, 
+.dark-mode h2, 
+.dark-mode .etape-title {
+    color: #ffffff;
+}
+
+/* Scrollbar personnalisée */
+.dark-mode::-webkit-scrollbar {
+    width: 10px;
+}
+
+.dark-mode::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+.dark-mode::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 5px;
+}
+
+.dark-mode::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* Style du Mode Sombre pour page voyage_detail.php */
+
+/* Styles généraux */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode .header {
+    background-color: #1a1a1a;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode .nav-links a {
+    color: #e0e0e0;
+}
+
+.dark-mode .logo {
+    color: #ffffff;
+}
+
+.dark-mode .hamburger span {
+    background-color: #e0e0e0;
+}
+
+/* Styles spécifiques à la page voyage_detail */
+.dark-mode .voyage-detail {
+    background-color: #1a1a1a;
+}
+
+.dark-mode .voyage-header {
+    background-color: #232323;
+    border-color: #444;
+}
+
+.dark-mode .voyage-info h1 {
+    color: #ffffff;
+}
+
+.dark-mode .voyage-info p {
+    color: #e0e0e0;
+}
+
+.dark-mode .voyage-info strong {
+    color: #ffffff;
+}
+
+.dark-mode .etapes-list h2 {
+    color: #ffffff;
+    border-bottom-color: #444;
+}
+
+.dark-mode .etape-item {
+    background-color: #232323;
+    border-color: #444;
+}
+
+.dark-mode .etape-header {
+    background-color: #2c2c2c;
+    border-bottom-color: #444;
+}
+
+.dark-mode .etape-title {
+    color: #ffffff;
+}
+
+.dark-mode .etape-dates {
+    color: #bbb;
+}
+
+.dark-mode .option-group {
+    border-color: #444;
+}
+
+.dark-mode .option-title {
+    color: #ffffff;
+}
+
+/* Formulaires et inputs */
+.dark-mode select,
+.dark-mode input[type="number"] {
+    background-color: #333;
+    color: #e0e0e0;
+    border-color: #555;
+}
+
+.dark-mode select option {
+    background-color: #333;
+    color: #e0e0e0;
+}
+
+.dark-mode input[type="checkbox"] {
+    accent-color: #4CAF50;
+}
+
+.dark-mode label {
+    color: #e0e0e0;
+}
+
+/* Bouton d'envoi */
+.dark-mode .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.dark-mode .submit-btn:hover {
+    background-color: #3a9d42;
+}
+
+/* Prix total */
+.dark-mode .price-total {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    border-color: #444;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode #total-price {
+    color: #7ac97a;
+}
+
+/* Scrollbar personnalisée */
+.dark-mode::-webkit-scrollbar {
+    width: 10px;
+}
+
+.dark-mode::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+.dark-mode::-webkit-scrollbar-thumb {
+    background: #444;
+    border-radius: 5px;
+}
+
+.dark-mode::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Focus styles pour l'accessibilité */
+.dark-mode select:focus,
+.dark-mode input:focus {
+    outline: 2px solid #4CAF50;
+    outline-offset: 2px;
+}
+
+
+
+/* Mode sombre pour page paiement.php */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode .recap-container {
+    background-color: #1e1e1e;
+    border-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .recap-title {
+    color: #f0f0f0;
+}
+
+body.dark-mode .recap-item {
+    border-bottom-color: #333;
+}
+
+body.dark-mode .recap-label {
+    color: #a0a0a0;
+}
+
+body.dark-mode .recap-total {
+    border-top-color: #444;
+    color: #f0f0f0;
+}
+
+body.dark-mode .loading {
+    color: #e0e0e0;
+}
+
+/* Mode sombre pour la page d'administration */
+body.dark-mode .admin-section {
+    background: #121212;
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode .admin-container {
+    background: #202020;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  body.dark-mode .admin-container h2 {
+    color: #66b3ff;
+  }
+  
+  /* Styles du tableau en mode sombre */
+  body.dark-mode .admin-table thead {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  body.dark-mode .admin-table th,
+  body.dark-mode .admin-table td {
+    border-bottom: 1px solid #444;
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode .admin-table tbody tr:hover {
+    background-color: #2c2c2c;
+  }
+  
+  /* Style des boutons en mode sombre */
+  body.dark-mode .edit-btn {
+    background-color: #2a75a9;
+  }
+  
+  body.dark-mode .edit-btn:hover {
+    background-color: #3a8bc0;
+  }
+  
+  body.dark-mode .view-btn {
+    background-color: #2a75a9;
+  }
+  
+  body.dark-mode .view-btn:hover {
+    background-color: #3a8bc0;
+  }
+  
+  body.dark-mode .delete-btn {
+    background-color: #b91c1c;
+  }
+  
+  body.dark-mode .delete-btn:hover {
+    background-color: #df2323;
+  }
+  
+  /* Style pour le sélecteur de rôle en mode sombre */
+  body.dark-mode .role-select {
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #555;
+  }
+  
+  body.dark-mode .role-select:hover {
+    border-color: #66b3ff;
+  }
+  
+  body.dark-mode .role-select:disabled {
+    background-color: #252525;
+    color: #888;
+  }
+  
+  /* Pagination en mode sombre */
+  body.dark-mode .pagination a {
+    background-color: #333;
+    color: #e0e0e0;
+  }
+  
+  body.dark-mode .pagination a.active {
+    background-color: #0066cc;
+    color: white;
+  }
+  
+  body.dark-mode .pagination a:hover:not(.active) {
+    background-color: #444;
+  }
+  
+  /* Style pour les lignes en cours de mise à jour en mode sombre */
+  body.dark-mode tr.updating {
+    background-color: #1a1a1a !important;
+  }
+  
+  body.dark-mode tr.updating::after {
+    background-color: rgba(40, 40, 40, 0.3);
+  }
+  
+  /* Style pour l'indicateur de chargement en mode sombre */
+  body.dark-mode .loading-indicator {
+    color: #66b3ff;
+  }

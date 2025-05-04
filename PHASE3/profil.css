@@ -1,0 +1,81 @@
+/* ----------------------------- */
+/*       STYLES DE LA PAGE       */
+/*         PROFIL                */
+/* ----------------------------- */
+
+/* Vous pouvez conserver ici le même espacement que pour vos sections */
+.profile-section {
+  padding-top: 100px; /* Pour compenser la hauteur du header */
+  padding: 6rem 2rem;
+  background: white;
+}
+
+/* Style de la carte de profil */
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.profile-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--secondary-color);
+  font-size: 2.8rem;
+}
+
+/* Chaque champ de profil */
+.profile-field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-field:last-child {
+  border-bottom: none;
+}
+
+.field-label {
+  font-weight: bold;
+  color: var(--secondary-color);
+  flex: 1;
+}
+
+.field-value {
+  flex: 2;
+  margin-left: 1rem;
+  color: #333;
+}
+
+/* Bouton Modifier */
+.edit-btn {
+  padding: 10px 15px;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive : adaptation sur petits écrans */
+@media (max-width: 600px) {
+  .profile-field {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .edit-btn {
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+}
