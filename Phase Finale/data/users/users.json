@@ -1,0 +1,478 @@
+[
+    {
+        "id": 1,
+        "login": "jean",
+        "password": "Adminjean",
+        "role": "administrateur",
+        "nom": "Dupontd",
+        "prenom": "Jeand",
+        "email": "jean.dupont@example.com",
+        "date_naissance": "1980-05-15",
+        "pays_origine": "France",
+        "adresse": "10 Rue Admin, Paris",
+        "date_inscription": "2023-01-01",
+        "derniere_connexion": "2025-05-23",
+        "voyages_consultes": [
+            "2",
+            "1",
+            "10",
+            "8"
+        ],
+        "voyages_achetes": [
+            {
+                "voyage_id": 2,
+                "montant": 4840,
+                "date_achat": "2025-05-20 12:51:20",
+                "lien_voyage": null
+            },
+            {
+                "voyage_id": 2,
+                "montant": 4840,
+                "date_achat": "2025-05-20 12:51:23",
+                "lien_voyage": null
+            },
+            {
+                "voyage_id": 1,
+                "montant": 5845,
+                "date_achat": "2025-05-20 12:52:44",
+                "lien_voyage": null
+            },
+            {
+                "voyage_id": 2,
+                "montant": 4840,
+                "date_achat": "2025-05-20 13:19:40",
+                "lien_voyage": null
+            },
+            {
+                "voyage_id": 2,
+                "montant": 4840,
+                "date_achat": "2025-05-20 13:19:42",
+                "lien_voyage": null
+            },
+            {
+                "voyage_id": 2,
+                "montant": 4840,
+                "date_achat": "2025-05-20 13:23:15",
+                "lien_voyage": null
+            },
+            {
+                "voyage_id": 2,
+                "montant": 4840,
+                "date_achat": "2025-05-20 13:23:16",
+                "lien_voyage": null
+            },
+            {
+                "voyage_id": 2,
+                "montant": 4840,
+                "date_achat": "2025-05-21 21:58:33",
+                "lien_voyage": null,
+                "options_details": {
+                    "4": {
+                        "titre": "Londres - L'Essence de la Mode",
+                        "options": {
+                            "hebergement": {
+                                "id": 7,
+                                "titre": "H\u00e9bergement standard",
+                                "description": "H\u00f4tel 4 \u00e9toiles dans le quartier de Mayfair",
+                                "prix": 150,
+                                "default": true
+                            },
+                            "restauration": {
+                                "id": 7,
+                                "titre": "Demi-pension",
+                                "description": "Petit-d\u00e9jeuner et d\u00eener inclus (restaurants tendance)",
+                                "prix": 70,
+                                "default": true
+                            },
+                            "activites": [
+                                {
+                                    "option": {
+                                        "id": 7,
+                                        "titre": "Visite des coulisses de la Fashion Week",
+                                        "description": "Acc\u00e8s exclusif aux pr\u00e9paratifs des d\u00e9fil\u00e9s et rencontre avec des designers.",
+                                        "prix": 80,
+                                        "default": true
+                                    },
+                                    "nb_persons": "1",
+                                    "prix_total": 80
+                                }
+                            ],
+                            "transport": {
+                                "id": 5,
+                                "titre": "Transport en commun de luxe",
+                                "description": "Carte de transport avec service de conciergerie",
+                                "prix": 40,
+                                "default": true
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "voyage_id": 2,
+                "montant": 4840,
+                "date_achat": "2025-05-21 21:58:38",
+                "lien_voyage": null,
+                "options_details": {
+                    "4": {
+                        "titre": "Londres - L'Essence de la Mode",
+                        "options": {
+                            "hebergement": {
+                                "id": 7,
+                                "titre": "H\u00e9bergement standard",
+                                "description": "H\u00f4tel 4 \u00e9toiles dans le quartier de Mayfair",
+                                "prix": 150,
+                                "default": true
+                            },
+                            "restauration": {
+                                "id": 7,
+                                "titre": "Demi-pension",
+                                "description": "Petit-d\u00e9jeuner et d\u00eener inclus (restaurants tendance)",
+                                "prix": 70,
+                                "default": true
+                            },
+                            "activites": [
+                                {
+                                    "option": {
+                                        "id": 7,
+                                        "titre": "Visite des coulisses de la Fashion Week",
+                                        "description": "Acc\u00e8s exclusif aux pr\u00e9paratifs des d\u00e9fil\u00e9s et rencontre avec des designers.",
+                                        "prix": 80,
+                                        "default": true
+                                    },
+                                    "nb_persons": "1",
+                                    "prix_total": 80
+                                }
+                            ],
+                            "transport": {
+                                "id": 5,
+                                "titre": "Transport en commun de luxe",
+                                "description": "Carte de transport avec service de conciergerie",
+                                "prix": 40,
+                                "default": true
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "voyage_id": 2,
+                "montant": 4840,
+                "date_achat": "2025-05-21 21:58:39",
+                "lien_voyage": null,
+                "options_details": {
+                    "4": {
+                        "titre": "Londres - L'Essence de la Mode",
+                        "options": {
+                            "hebergement": {
+                                "id": 7,
+                                "titre": "H\u00e9bergement standard",
+                                "description": "H\u00f4tel 4 \u00e9toiles dans le quartier de Mayfair",
+                                "prix": 150,
+                                "default": true
+                            },
+                            "restauration": {
+                                "id": 7,
+                                "titre": "Demi-pension",
+                                "description": "Petit-d\u00e9jeuner et d\u00eener inclus (restaurants tendance)",
+                                "prix": 70,
+                                "default": true
+                            },
+                            "activites": [
+                                {
+                                    "option": {
+                                        "id": 7,
+                                        "titre": "Visite des coulisses de la Fashion Week",
+                                        "description": "Acc\u00e8s exclusif aux pr\u00e9paratifs des d\u00e9fil\u00e9s et rencontre avec des designers.",
+                                        "prix": 80,
+                                        "default": true
+                                    },
+                                    "nb_persons": "1",
+                                    "prix_total": 80
+                                }
+                            ],
+                            "transport": {
+                                "id": 5,
+                                "titre": "Transport en commun de luxe",
+                                "description": "Carte de transport avec service de conciergerie",
+                                "prix": 40,
+                                "default": true
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "voyage_id": 2,
+                "montant": 4840,
+                "date_achat": "2025-05-21 22:00:28",
+                "lien_voyage": null,
+                "options_details": {
+                    "4": {
+                        "titre": "Londres - L'Essence de la Mode",
+                        "options": {
+                            "hebergement": {
+                                "id": 7,
+                                "titre": "H\u00e9bergement standard",
+                                "description": "H\u00f4tel 4 \u00e9toiles dans le quartier de Mayfair",
+                                "prix": 150,
+                                "default": true
+                            },
+                            "restauration": {
+                                "id": 7,
+                                "titre": "Demi-pension",
+                                "description": "Petit-d\u00e9jeuner et d\u00eener inclus (restaurants tendance)",
+                                "prix": 70,
+                                "default": true
+                            },
+                            "activites": [
+                                {
+                                    "option": {
+                                        "id": 7,
+                                        "titre": "Visite des coulisses de la Fashion Week",
+                                        "description": "Acc\u00e8s exclusif aux pr\u00e9paratifs des d\u00e9fil\u00e9s et rencontre avec des designers.",
+                                        "prix": 80,
+                                        "default": true
+                                    },
+                                    "nb_persons": "1",
+                                    "prix_total": 80
+                                }
+                            ],
+                            "transport": {
+                                "id": 5,
+                                "titre": "Transport en commun de luxe",
+                                "description": "Carte de transport avec service de conciergerie",
+                                "prix": 40,
+                                "default": true
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "voyage_id": 2,
+                "montant": 4840,
+                "date_achat": "2025-05-21 22:00:29",
+                "lien_voyage": null,
+                "options_details": {
+                    "4": {
+                        "titre": "Londres - L'Essence de la Mode",
+                        "options": {
+                            "hebergement": {
+                                "id": 7,
+                                "titre": "H\u00e9bergement standard",
+                                "description": "H\u00f4tel 4 \u00e9toiles dans le quartier de Mayfair",
+                                "prix": 150,
+                                "default": true
+                            },
+                            "restauration": {
+                                "id": 7,
+                                "titre": "Demi-pension",
+                                "description": "Petit-d\u00e9jeuner et d\u00eener inclus (restaurants tendance)",
+                                "prix": 70,
+                                "default": true
+                            },
+                            "activites": [
+                                {
+                                    "option": {
+                                        "id": 7,
+                                        "titre": "Visite des coulisses de la Fashion Week",
+                                        "description": "Acc\u00e8s exclusif aux pr\u00e9paratifs des d\u00e9fil\u00e9s et rencontre avec des designers.",
+                                        "prix": 80,
+                                        "default": true
+                                    },
+                                    "nb_persons": "1",
+                                    "prix_total": 80
+                                }
+                            ],
+                            "transport": {
+                                "id": 5,
+                                "titre": "Transport en commun de luxe",
+                                "description": "Carte de transport avec service de conciergerie",
+                                "prix": 40,
+                                "default": true
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "voyage_id": 2,
+                "montant": 4840,
+                "date_achat": "2025-05-21 22:00:31",
+                "lien_voyage": null,
+                "options_details": {
+                    "4": {
+                        "titre": "Londres - L'Essence de la Mode",
+                        "options": {
+                            "hebergement": {
+                                "id": 7,
+                                "titre": "H\u00e9bergement standard",
+                                "description": "H\u00f4tel 4 \u00e9toiles dans le quartier de Mayfair",
+                                "prix": 150,
+                                "default": true
+                            },
+                            "restauration": {
+                                "id": 7,
+                                "titre": "Demi-pension",
+                                "description": "Petit-d\u00e9jeuner et d\u00eener inclus (restaurants tendance)",
+                                "prix": 70,
+                                "default": true
+                            },
+                            "activites": [
+                                {
+                                    "option": {
+                                        "id": 7,
+                                        "titre": "Visite des coulisses de la Fashion Week",
+                                        "description": "Acc\u00e8s exclusif aux pr\u00e9paratifs des d\u00e9fil\u00e9s et rencontre avec des designers.",
+                                        "prix": 80,
+                                        "default": true
+                                    },
+                                    "nb_persons": "1",
+                                    "prix_total": 80
+                                }
+                            ],
+                            "transport": {
+                                "id": 5,
+                                "titre": "Transport en commun de luxe",
+                                "description": "Carte de transport avec service de conciergerie",
+                                "prix": 40,
+                                "default": true
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "voyages_panier": [],
+        "voyages_prix": {
+            "3": 6315,
+            "5": 4435,
+            "2": 4840,
+            "10": 4235,
+            "8": 3410,
+            "1": 5845
+        },
+        "status": "actif"
+    },
+    {
+        "id": 2,
+        "login": "admin_secondaire",
+        "password": "Admin456!",
+        "role": "administrateur",
+        "nom": "Martin",
+        "prenom": "Alice",
+        "email": "alice.martin@example.com",
+        "date_naissance": "1985-08-22",
+        "pays_origine": "France",
+        "adresse": "20 Avenue Admin, Lyon",
+        "date_inscription": "2023-01-02",
+        "derniere_connexion": "2025-05-23",
+        "voyages_consultes": [],
+        "voyages_achetes": []
+    },
+    {
+        "id": 3,
+        "login": "paul.voyageur",
+        "password": "Paul2024!",
+        "role": "administrateur",
+        "nom": "Leroy",
+        "prenom": "Paul",
+        "email": "paul.leroy@example.com",
+        "date_naissance": "1990-03-10",
+        "pays_origine": "Belgique",
+        "adresse": "30 Rue Voyageur, Bruxelles",
+        "date_inscription": "2024-01-15",
+        "derniere_connexion": "2025-05-22",
+        "voyages_consultes": [],
+        "voyages_achetes": []
+    },
+    {
+        "id": 4,
+        "login": "emma.exploratrice",
+        "password": "Emma2024!",
+        "role": "bloqu\u00e9",
+        "nom": "Durand",
+        "prenom": "Emma",
+        "email": "emma.durand@example.com",
+        "date_naissance": "1992-07-30",
+        "pays_origine": "Suisse",
+        "adresse": "40 Chemin Explore, Gen\u00e8ve",
+        "date_inscription": "2024-02-10",
+        "derniere_connexion": "2025-03-25",
+        "voyages_consultes": [],
+        "voyages_achetes": []
+    },
+    {
+        "id": 5,
+        "login": "lucas.aventurier",
+        "password": "Lucas2024!",
+        "role": "normal",
+        "nom": "Bernard",
+        "prenom": "Lucas",
+        "email": "lucas.bernard@example.com",
+        "date_naissance": "1988-11-05",
+        "pays_origine": "Canada",
+        "adresse": "50 Boulevard Aventure, Montr\u00e9al",
+        "date_inscription": "2024-03-01",
+        "derniere_connexion": "2025-03-29",
+        "voyages_consultes": [],
+        "voyages_achetes": [],
+        "status": "actif"
+    },
+    {
+        "id": 6,
+        "login": "sophie.guide",
+        "password": "Sophie123!",
+        "role": "normal",
+        "nom": "Lefevre",
+        "prenom": "Sophie",
+        "email": "sophie.lefevre@example.com",
+        "date_naissance": "1987-04-18",
+        "pays_origine": "France",
+        "adresse": "60 Rue des Guides, Marseille",
+        "date_inscription": "2023-06-15",
+        "derniere_connexion": "2025-03-28",
+        "voyages_consultes": [],
+        "voyages_achetes": [],
+        "voyages_guides": []
+    },
+    {
+        "id": 14,
+        "login": "claire.guide",
+        "password": "Claire123!",
+        "role": "administrateur",
+        "nom": "Dumont",
+        "prenom": "Claire",
+        "email": "claire.dumont@example.com",
+        "date_naissance": "1983-03-30",
+        "pays_origine": "France",
+        "adresse": "140 Boulevard Guide, Nice",
+        "date_inscription": "2023-08-22",
+        "derniere_connexion": "2025-05-23",
+        "voyages_consultes": [
+            "2"
+        ],
+        "voyages_achetes": [],
+        "voyages_guides": [],
+        "voyages_prix": {
+            "2": 5140
+        }
+    },
+    {
+        "id": 15,
+        "login": "mohamed.explorateur",
+        "password": "Mohamed2025!",
+        "role": "normal",
+        "nom": "Benali",
+        "prenom": "Mohamed",
+        "email": "mohamed.benali@example.com",
+        "date_naissance": "1994-05-17",
+        "pays_origine": "Maroc",
+        "adresse": "150 Rue Explorateur, Casablanca",
+        "date_inscription": "2024-08-10",
+        "derniere_connexion": "2025-03-29",
+        "voyages_consultes": [],
+        "voyages_achetes": []
+    }
+]

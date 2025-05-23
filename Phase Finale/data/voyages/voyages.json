@@ -1,0 +1,1404 @@
+[
+    {
+      "id": 1,
+      "titre": "Neymar, Brésil",
+      "destination": "Brésil",
+      "description": "Vivez l'ascension d'un prodige du football : des favelas de son enfance aux stades mythiques. Ressentez la passion du Brésil.",
+      "prix": 5000,
+      "duree": 10,
+      "date_depart": "2024-06-15",
+      "date_creation": "2024-01-10",
+      "image": "OIP.jpg",
+      "note_moyenne": 4,
+      "etapes": [
+        {
+          "id": 1,
+          "titre": "São Paulo - Origines",
+          "description": "Découvrez le quartier d'enfance de Neymar et visitez le centre de formation qui l'a révélé.",
+          "jour_debut": 1,
+          "jour_fin": 3,
+          "options_hebergement": [
+            {
+              "id": 1,
+              "titre": "Hébergement standard",
+              "description": "Hôtel 3 étoiles au centre-ville",
+              "prix": 100,
+              "default": true
+            },
+            {
+              "id": 2,
+              "titre": "Hébergement premium",
+              "description": "Hôtel 5 étoiles avec vue sur la ville",
+              "prix": 200,
+              "default": false
+            }
+          ],
+          "options_restauration": [
+            {
+              "id": 1,
+              "titre": "Demi-pension",
+              "description": "Petit-déjeuner et dîner inclus",
+              "prix": 50,
+              "default": true
+            },
+            {
+              "id": 2,
+              "titre": "Pension complète",
+              "description": "Tous les repas inclus",
+              "prix": 80,
+              "default": false
+            }
+          ],
+          "options_activites": [
+            {
+              "id": 1,
+              "titre": "Visite du quartier d'enfance",
+              "description": "Visite guidée avec un ami d'enfance de Neymar",
+              "prix": 60,
+              "default": true
+            },
+            {
+              "id": 2,
+              "titre": "Entraînement au FC Santos",
+              "description": "Session d'entraînement dans le club qui a formé Neymar",
+              "prix": 120,
+              "default": false
+            }
+          ],
+          "options_transport": [
+            {
+              "id": 1,
+              "titre": "Bus standard",
+              "description": "Transport en bus vers la prochaine étape",
+              "prix": 30,
+              "default": true
+            },
+            {
+              "id": 2,
+              "titre": "Transport privé",
+              "description": "Voiture privée avec chauffeur",
+              "prix": 100,
+              "default": false
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "titre": "Rio de Janeiro - Gloire",
+          "description": "Vivez l'expérience d'un match au Maracanã et rencontrez des fans passionnés.",
+          "jour_debut": 4,
+          "jour_fin": 7,
+          "options_hebergement": [
+            {
+              "id": 3,
+              "titre": "Hébergement standard",
+              "description": "Hôtel 3 étoiles à Copacabana",
+              "prix": 120,
+              "default": true
+            },
+            {
+              "id": 4,
+              "titre": "Hébergement premium",
+              "description": "Suite de luxe avec vue sur la plage",
+              "prix": 250,
+              "default": false
+            }
+          ],
+          "options_restauration": [
+            {
+              "id": 3,
+              "titre": "Demi-pension",
+              "description": "Petit-déjeuner et dîner inclus",
+              "prix": 60,
+              "default": true
+            },
+            {
+              "id": 4,
+              "titre": "Pension complète",
+              "description": "Tous les repas inclus",
+              "prix": 90,
+              "default": false
+            }
+          ],
+          "options_activites": [
+            {
+              "id": 3,
+              "titre": "Match au Maracanã",
+              "description": "Assister à un match de l'équipe nationale",
+              "prix": 150,
+              "default": true
+            },
+            {
+              "id": 4,
+              "titre": "Visite des quartiers footballistiques",
+              "description": "Découvrez la culture du football dans les favelas",
+              "prix": 80,
+              "default": false
+            }
+          ],
+          "options_transport": [
+            {
+              "id": 3,
+              "titre": "Bus standard",
+              "description": "Transport en bus vers la prochaine étape",
+              "prix": 40,
+              "default": true
+            },
+            {
+              "id": 4,
+              "titre": "Transport privé",
+              "description": "Voiture privée avec chauffeur",
+              "prix": 120,
+              "default": false
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "titre": "Salvador - Culture",
+          "description": "Découvrez la culture brésilienne qui influence le style de jeu unique de Neymar.",
+          "jour_debut": 8,
+          "jour_fin": 10,
+          "options_hebergement": [
+            {
+              "id": 5,
+              "titre": "Hébergement standard",
+              "description": "Hôtel 3 étoiles dans le quartier historique",
+              "prix": 110,
+              "default": true
+            },
+            {
+              "id": 6,
+              "titre": "Hébergement premium",
+              "description": "Hôtel colonial de luxe",
+              "prix": 230,
+              "default": false
+            }
+          ],
+          "options_restauration": [
+            {
+              "id": 5,
+              "titre": "Demi-pension",
+              "description": "Petit-déjeuner et dîner inclus",
+              "prix": 55,
+              "default": true
+            },
+            {
+              "id": 6,
+              "titre": "Pension complète",
+              "description": "Tous les repas inclus",
+              "prix": 85,
+              "default": false
+            }
+          ],
+          "options_activites": [
+            {
+              "id": 5,
+              "titre": "Cours de capoeira",
+              "description": "Initiez-vous à cet art martial qui influence le style de jeu brésilien",
+              "prix": 70,
+              "default": true
+            },
+            {
+              "id": 6,
+              "titre": "Soirée samba",
+              "description": "Immersion dans la culture musicale brésilienne",
+              "prix": 90,
+              "default": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titre": "Naomi Campbell, Londres",
+      "destination": " Londres, Royaume-Uni",
+      "description": "Découvrez le monde du mannequinat à Londres. Défilé, séance photo et immersion dans l'univers de la mode vous attendent.",
+      "prix": 4500,
+      "duree": 7,
+      "date_depart": "2024-07-22",
+      "date_creation": "2024-02-01",
+      "image": "naomi.jpg",
+      "note_moyenne": 3,
+      "etapes": [
+        {
+          "id": 4,
+          "titre": "Londres - L'Essence de la Mode",
+          "description": "Explorez les lieux clés de la carrière de Naomi Campbell, icône du mannequinat mondial.",
+          "jour_debut": 1,
+          "jour_fin": 7,
+          "options_hebergement": [
+            {
+              "id": 7,
+              "titre": "Hébergement standard",
+              "description": "Hôtel 4 étoiles dans le quartier de Mayfair",
+              "prix": 150,
+              "default": true
+            },
+            {
+              "id": 8,
+              "titre": "Hébergement premium",
+              "description": "Suite de luxe avec vue sur la ville et service de styliste personnel",
+              "prix": 300,
+              "default": false
+            }
+          ],
+          "options_restauration": [
+            {
+              "id": 7,
+              "titre": "Demi-pension",
+              "description": "Petit-déjeuner et dîner inclus (restaurants tendance)",
+              "prix": 70,
+              "default": true
+            },
+            {
+              "id": 8,
+              "titre": "Pension complète",
+              "description": "Tous les repas inclus (restaurants de créateurs et soirées mode)",
+              "prix": 110,
+              "default": false
+            }
+          ],
+          "options_activites": [
+            {
+              "id": 7,
+              "titre": "Visite des coulisses de la Fashion Week",
+              "description": "Accès exclusif aux préparatifs des défilés et rencontre avec des designers.",
+              "prix": 80,
+              "default": true
+            },
+            {
+              "id": 8,
+              "titre": "Masterclass de mannequinat",
+              "description": "Cours intensif avec un mentor professionnel du monde de la mode",
+              "prix": 140,
+              "default": false
+            }
+          ],
+          "options_transport": [
+            {
+              "id": 5,
+              "titre": "Transport en commun de luxe",
+              "description": "Carte de transport avec service de conciergerie",
+              "prix": 40,
+              "default": true
+            },
+            {
+              "id": 6,
+              "titre": "Chauffeur privé",
+              "description": "Voiture de luxe avec chauffeur personnel",
+              "prix": 200,
+              "default": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titre": "Elon Musk, Texas",
+      "destination": "Texas, USA",
+      "description": "Entrez dans lunivers de linnovation : testez une Tesla, visitez SpaceX et plongez au cœur de la Silicon Valley.",
+      "prix": 6000,
+      "duree": 5,
+      "date_depart": "2024-08-10",
+      "date_creation": "2024-02-15",
+      "image": "elon.jpg",
+      "note_moyenne": 2.5,
+      "etapes": [
+        {
+          "id": 5,
+          "titre": "Texas - Le Futur de l'Espace",
+          "description": "Découvrez le site de lancement de SpaceX et les innovations de la société.",
+          "jour_debut": 1,
+          "jour_fin": 5,
+          "options_hebergement": [
+            {
+              "id": 9,
+              "titre": "Hébergement standard",
+              "description": "Hôtel avec vue sur la base spatiale",
+              "prix": 130,
+              "default": true
+            },
+            {
+              "id": 10,
+              "titre": "Hébergement premium",
+              "description": "Suite de luxe avec télescope",
+              "prix": 270,
+              "default": false
+            }
+          ],
+          "options_restauration": [
+            {
+              "id": 9,
+              "titre": "Repas rapides",
+              "description": "Repas rapides inclus",
+              "prix": 45,
+              "default": true
+            },
+            {
+              "id": 10,
+              "titre": "Pension complète",
+              "description": "Tous les repas inclus (restaurants)",
+              "prix": 85,
+              "default": false
+            }
+          ],
+          "options_activites": [
+            {
+              "id": 9,
+              "titre": "Visite du centre spatial Kennedy",
+              "description": "Visite guidée du centre spatial",
+              "prix": 90,
+              "default": true
+            },
+            {
+              "id": 10,
+              "titre": "Simulation de lancement",
+              "description": "Expérimentez un lancement spatial simulé",
+              "prix": 160,
+              "default": false
+            }
+          ],
+          "options_transport": [
+            {
+              "id": 7,
+              "titre": "Navette",
+              "description": "Navette depuis l'aéroport",
+              "prix": 50,
+              "default": true
+            },
+            {
+              "id": 8,
+              "titre": "Tesla",
+              "description": "Tesla Model S à disposition",
+              "prix": 250,
+              "default": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titre": "Priyanka Chopra, Inde, Mumbai",
+      "destination": "Mumbai, Maharashtra, Inde",
+      "description": "Marchez sur les traces d'une star de Bollywood : danse, tournage et glamour à Mumbai. Une immersion dans le cinéma indien",
+      "prix": 5000,
+      "duree": 6,
+      "date_depart": "2024-09-05",
+      "date_creation": "2024-03-01",
+      "image": "priyanka.jpg",
+      "note_moyenne": 3,
+      "etapes": [
+        {
+          "id": 6,
+          "titre": "Mumbai - L'Essence de Bollywood",
+          "description": "Explorez les lieux clés de la carrière de Priyanka Chopra à Mumbai.",
+          "jour_debut": 1,
+          "jour_fin": 6,
+          "options_hebergement": [
+            {
+              "id": 11,
+              "titre": "Hébergement standard",
+              "description": "Hôtel 4 étoiles dans le quartier de Bandra",
+              "prix": 100,
+              "default": true
+            },
+            {
+              "id": 12,
+              "titre": "Hébergement premium",
+              "description": "Suite de luxe avec vue sur Bollywood",
+              "prix": 220,
+              "default": false
+            }
+          ],
+          "options_restauration": [
+            {
+              "id": 11,
+              "titre": "Demi-pension",
+              "description": "Petit-déjeuner et dîner inclus (cuisine indienne traditionnelle)",
+              "prix": 60,
+              "default": true
+            },
+            {
+              "id": 12,
+              "titre": "Pension complète",
+              "description": "Tous les repas inclus (restaurants de célébrités et cours de cuisine)",
+              "prix": 95,
+              "default": false
+            }
+          ],
+          "options_activites": [
+            {
+              "id": 11,
+              "titre": "Visite des studios de Bollywood",
+              "description": "Tournée exclusive des principaux studios de cinéma",
+              "prix": 70,
+              "default": true
+            },
+            {
+              "id": 12,
+              "titre": "Atelier de danse et cinéma",
+              "description": "Masterclass de danse bollywood et techniques de jeu d'acteur",
+              "prix": 130,
+              "default": false
+            }
+          ],
+          "options_transport": [
+            {
+              "id": 9,
+              "titre": "Transport local",
+              "description": "Forfait transport en auto-rickshaw et métro",
+              "prix": 35,
+              "default": true
+            },
+            {
+              "id": 10,
+              "titre": "Voiture privée",
+              "description": "Limousine avec chauffeur style Bollywood",
+              "prix": 180,
+              "default": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titre": "Cristiano Ronaldo, Madère",
+      "destination": "Funchal, Madère, Portugal",
+      "description": "Retour aux sources du quintuple Ballon d'Or, sur son île natale de Madère. Découvrez les lieux qui ont forgé le champion.",
+      "prix": 4200,
+      "duree": 7,
+      "date_depart": "2024-10-12",
+      "date_creation": "2024-03-15",
+      "image": "cristiano_ronaldo.jpg",
+      "note_moyenne": 4,
+      "etapes": [
+        {
+          "id": 7,
+          "titre": "Funchal - Les Racines d'un Champion",
+          "description": "Explorez les lieux clés de l'enfance de Cristiano Ronaldo à Funchal.",
+          "jour_debut": 1,
+          "jour_fin": 7,
+          "options_hebergement": [
+            {
+              "id": 13,
+              "titre": "Hébergement standard",
+              "description": "Hôtel 3 étoiles près du stade",
+              "prix": 90,
+              "default": true
+            },
+            {
+              "id": 14,
+              "titre": "Hébergement premium",
+              "description": "Hôtel de luxe avec vue sur l'océan",
+              "prix": 200,
+              "default": false
+            }
+          ],
+          "options_restauration": [
+            {
+              "id": 13,
+              "titre": "Demi-pension",
+              "description": "Petit-déjeuner et dîner inclus",
+              "prix": 55,
+              "default": true
+            },
+            {
+              "id": 14,
+              "titre": "Pension complète",
+              "description": "Tous les repas inclus (cuisine locale)",
+              "prix": 80,
+              "default": false
+            }
+          ],
+          "options_activites": [
+            {
+              "id": 13,
+              "titre": "Visite du musée CR7",
+              "description": "Visite guidée du musée dédié à Cristiano Ronaldo",
+              "prix": 60,
+              "default": true
+            },
+            {
+              "id": 14,
+              "titre": "Entraînement avec un club local",
+              "description": "Session d'entraînement avec une équipe locale",
+              "prix": 110,
+              "default": false
+            }
+          ],
+          "options_transport": [
+            {
+              "id": 11,
+              "titre": "Bus local",
+              "description": "Forfait bus",
+              "prix": 30,
+              "default": true
+            },
+            {
+              "id": 12,
+              "titre": "Voiture de location",
+              "description": "Location d'une voiture sportive",
+              "prix": 150,
+              "default": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titre": "Pape François, Vatican",
+      "destination": "Cité du Vatican, Rome, Italie",
+      "description": "Immergez-vous dans la spiritualité du Vatican, explorez les coulisses de la papauté et vivez au rythme des traditions religieuses.",
+      "prix": 2500,
+      "duree": 7,
+      "date_depart": "2024-11-02",
+      "date_creation": "2024-04-01",
+      "image": "pape.jpg",
+      "note_moyenne": 3,
+      "etapes": [
+        {
+          "id": 8,
+          "titre": "Vatican - Un Parcours Spirituel",
+          "description": "Découvrez l'histoire et l'engagement du Pape François, de Buenos Aires au Saint-Siège.",
+          "jour_debut": 1,
+          "jour_fin": 7,
+          "options_hebergement": [
+            {
+              "id": 15,
+              "titre": "Hébergement standard",
+              "description": "Hôtel 4 étoiles près du Vatican",
+              "prix": 140,
+              "default": true
+            },
+            {
+              "id": 16,
+              "titre": "Hébergement premium",
+              "description": "Résidence de charité gérée par des religieux",
+              "prix": 280,
+              "default": false
+            }
+          ],
+          "options_restauration": [
+            {
+              "id": 15,
+              "titre": "Demi-pension- ",
+              "description": "Petit-déjeuner et dîner inclus",
+              "prix": 65,
+              "default": true
+            },
+            {
+              "id": 16,
+              "titre": "Pension complète ",
+              "description": "Tous les repas inclus partagés dans des centres caritatifs inspirés par l'engagement du Pape ",
+              "prix": 100,
+              "default": false
+            }
+          ],
+          "options_activites": [
+            {
+              "id": 15,
+              "titre": "Participation à un projet caritatif",
+              "description": "Journée de bénévolat avec une ONG soutenue par le Pape François",
+              "prix": 80,
+              "default": true
+            },
+            {
+              "id": 16,
+              "titre": "Visite privée des musées du Vatican",
+              "description": "Visite exclusive des collections historiques et artistiques",
+              "prix": 150,
+              "default": false
+            }
+          ],
+          "options_transport": [
+            {
+              "id": 13,
+              "titre": "Transport en commun",
+              "description": "Forfait transports publics romains",
+              "prix": 40,
+              "default": true
+            },
+            {
+              "id": 14,
+              "titre": "Voiture avec chauffeur ecclésiastique",
+              "description": "Déplacements en véhicule officiel du Vatican",
+              "prix": 200,
+              "default": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titre": "Rihanna, Barbade",
+      "destination": "Bridgetown, Barbade",
+      "description": "Retour aux sources de la superstar Rihanna sur son île natale. Plongez dans l'ambiance caribéenne et découvrez les influences de sa musique.",
+      "prix": 3500,
+      "duree": 7,
+      "date_depart": "2024-12-07",
+      "date_creation": "2024-04-15",
+      "image": "rihanna.jpg",
+      "note_moyenne": 3.5,
+      "etapes": [
+        {
+          "id": 9,
+          "titre": "Bridgetown - Le Soleil des Caraïbes",
+          "description": "Découvrez les lieux qui ont marqué l'enfance de Rihanna à Bridgetown.",
+          "jour_debut": 1,
+          "jour_fin": 7,
+          "options_hebergement": [
+            {
+              "id": 17,
+              "titre": "Hébergement standard",
+              "description": "Hôtel 3 étoiles en bord de plage",
+              "prix": 80,
+              "default": true
+            },
+            {
+              "id": 18,
+              "titre": "Hébergement premium",
+              "description": "Villa de luxe avec piscine privée",
+              "prix": 180,
+              "default": false
+            }
+          ],
+          "options_restauration": [
+            {
+              "id": 17,
+              "titre": "Demi-pension",
+              "description": "Petit-déjeuner et dîner inclus",
+              "prix": 50,
+              "default": true
+            },
+            {
+              "id": 18,
+              "titre": "Pension complète",
+              "description": "Tous les repas inclus (cuisine caribéenne)",
+              "prix": 75,
+              "default": false
+            }
+          ],
+          "options_activites": [
+            {
+              "id": 17,
+              "titre": "Visite de la maison d'enfance de Rihanna",
+              "description": "Visite guidée du quartier",
+              "prix": 55,
+              "default": true
+            },
+            {
+              "id": 18,
+              "titre": "Cours de danse caribéenne",
+              "description": "Apprenez les rythmes locaux",
+              "prix": 100,
+              "default": false
+            }
+          ],
+          "options_transport": [
+            {
+              "id": 15,
+              "titre": "Bus local",
+              "description": "Forfait bus local",
+              "prix": 25,
+              "default": true
+            },
+            {
+              "id": 16,
+              "titre": "Jeep de location",
+              "description": "Location d'une Jeep pour explorer l'île",
+              "prix": 140,
+              "default": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titre": "Nelson, Mandela, Afrique du Sud, Johanesburg",
+      "destination": "Johanesburg, Afrique du Sud",
+      "description": "Revivez le combat d'un homme qui a changé l'histoire. De la prison de Robben Island aux discours de liberté, suivez son parcours inspirant.",
+      "prix": 3200,
+      "duree": 5,
+      "date_depart": "2025-01-10",
+      "date_creation": "2024-05-01",
+      "image": "nelson.jpg",
+      "note_moyenne": 4,
+      "etapes": [
+        {
+          "id": 10,
+          "titre": "Robben Island - L'héritage de Mandela",
+          "description": "Visitez la prison où Nelson Mandela a été emprisonné pendant 27 ans",
+          "jour_debut": 1,
+          "jour_fin": 5,
+          "options_hebergement": [
+            {
+              "id": 19,
+              "titre": "Hébergement standard",
+              "description": "Hôtel historique de Pretoria",
+              "prix": 70,
+              "default": true
+            },
+            {
+              "id": 20,
+              "titre": "Hébergement premium",
+              "description": "Résidence de luxe avec jardin historique",
+              "prix": 160,
+              "default": false
+            }
+          ],
+          "options_restauration": [
+            {
+              "id": 19,
+              "titre": "Demi-pension",
+              "description": "Petit-déjeuner et dîner inclus",
+              "prix": 45,
+              "default": true
+            },
+            {
+              "id": 20,
+              "titre": "Pension complète",
+              "description": "Tous les repas inclus (cuisine locale)",
+              "prix": 70,
+              "default": false
+            }
+          ],
+          "options_activites": [
+            {
+              "id": 19,
+              "titre": "Explorez les lieux clés de la transition démocratique",
+              "description": "Visitez la prison où Nelson Mandela a été emprisonné pendant 27 ans",
+              "prix": 65,
+              "default": true
+            },
+            {
+              "id": 20,
+              "titre": "Rencontre avec des activistes contemporains",
+              "description": "Échangez avec des militants continuant l'héritage de Mandela pour l'égalité et la justice.",
+              "prix": 115,
+              "default": false
+            }
+          ],
+          "options_transport": [
+            {
+              "id": 17,
+              "titre": "Taxi",
+              "description": "Forfait taxi",
+              "prix": 30,
+              "default": true
+            },
+            {
+              "id": 18,
+              "titre": "Location de voiture avec guide + chauffeur privé",
+              "description": "Voiture avec guide historique",
+              "prix": 230,
+              "default": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titre": "Jamel Debouzze, Maroc",
+      "destination": "Marrackech, Maroc",
+      "description": "Découvrez l'humour et l'énergie de Jamel à travers Marrakech. Stand-up, festival du rire et escapade dans le désert vous attendent.",
+      "prix":  3500,
+      "duree": 6,
+      "date_depart": "2025-02-14",
+      "date_creation": "2024-05-15",
+      "image": "jamel.jpg",
+      "note_moyenne": 3,
+      "etapes": [
+        {
+          "id": 11,
+          "titre": "Marrakech - Scène humoristique",
+          "description": "Découvrez les coulisses du Marrakech du Rire et testez votre humour en live.",
+          "jour_debut": 1,
+          "jour_fin": 6,
+          "options_hebergement": [
+            {
+              "id": 21,
+              "titre": "Hébergement standard",
+              "description": "Un Airbnb de charme à riad",
+              "prix": 130,
+              "default": true
+            },
+            {
+              "id": 22,
+              "titre": "Villa privée dans la Palmeraie ",
+              "description": "Piscine, cuisinier privé et espace pour organiser un mini-festival d’humour. ",
+              "prix": 250,
+              "default": false
+            }
+          ],
+          "options_restauration": [
+            {
+              "id": 21,
+              "titre": "Repas végétarien",
+              "description": "Repas dans des restaurants végétariens",
+              "prix": 60,
+              "default": true
+            },
+            {
+              "id": 22,
+              "titre": "Pension complète",
+              "description": "Tous les repas inclus aux saveur marocaines (bio et locaux)",
+              "prix": 90,
+              "default": false
+            }
+          ],
+          "options_activites": [
+            {
+              "id": 21,
+              "titre": "Soirée comédie",
+              "description": "Spectaire au Comédie Club Marrakech avec des humoristes locaux",
+              "prix": 75,
+              "default": true
+            },
+            {
+              "id": 22,
+              "titre": "Atelier d'humour",
+              "description": "Participez à un stage de stand-up.",
+              "prix": 140,
+              "default": false
+            }
+          ],
+          "options_transport": [
+            {
+              "id": 19,
+              "titre": " Calèches (Koutchis)",
+              "description": "Les calèches, appelées (koutchis) à Marrakech, sont des carrosses tirés par des chevaux",
+              "prix": 50,
+              "default": true
+            },
+            {
+              "id": 20,
+              "titre": "Location de voiture",
+              "description": "Louer une voiture à Marrakech est pratique pour explorer librement la région ",
+              "prix": 220,
+              "default": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titre": "Dwayne Johnson, Hawaï",
+      "destination": "Honolulu, Hawaï, USA",
+      "description": "Plongez dans l'univers de 'The Rock' à Hawaï, où il a grandi. Découvrez les traditions polynésiennes et l'esprit de l'Aloha.",
+      "prix": 4000,
+      "duree": 7,
+      "date_depart": "2025-03-20",
+      "date_creation": "2024-06-01",
+      "image": "dwayne_johnson.jpg",
+      "note_moyenne": 3,
+      "etapes": [
+        {
+          "id": 12,
+          "titre": "Honolulu - La Force Tranquille",
+          "description": "Découvrez les lieux où Dwayne Johnson a passé son enfance et les traditions polynésiennes.",
+          "jour_debut": 1,
+          "jour_fin": 7,
+          "options_hebergement": [
+            {
+              "id": 23,
+              "titre": "Hébergement standard",
+              "description": "Hôtel 3 étoiles en bord de mer",
+              "prix": 90,
+              "default": true
+            },
+            {
+              "id": 24,
+              "titre": "Hébergement premium",
+              "description": "Suite de luxe avec vue sur l'océan et salle de sport",
+              "prix": 200,
+              "default": false
+            }
+          ],
+          "options_restauration": [
+            {
+              "id": 23,
+              "titre": "Demi-pension",
+              "description": "Petit-déjeuner et dîner inclus",
+              "prix": 55,
+              "default": true
+            },
+            {
+              "id": 24,
+              "titre": "Pension complète",
+              "description": "Tous les repas inclus (cuisine hawaïenne)",
+              "prix": 80,
+              "default": false
+            }
+          ],
+          "options_activites": [
+            {
+              "id": 23,
+              "titre": "Initiation au hula",
+              "description": "Apprenez la danse traditionnelle hawaïenne",
+              "prix": 60,
+              "default": true
+            },
+            {
+              "id": 24,
+              "titre": "Cours de surf",
+              "description": "Domptez les vagues comme 'The Rock'",
+              "prix": 110,
+              "default": false
+            }
+          ],
+          "options_transport": [
+            {
+              "id": 21,
+              "titre": "Bus local",
+              "description": "Forfait bus local",
+              "prix": 30,
+              "default": true
+            },
+            {
+              "id": 22,
+              "titre": "4x4",
+              "description": "Location d'un 4x4 pour explorer l'île",
+              "prix": 150,
+              "default": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "titre": "JK Rowling, Édimbourg",
+      "destination": "Édimbourg, Écosse",
+      "description": "Marchez sur les traces de l'auteure de Harry Potter dans la ville qui a inspiré son univers magique. Découvrez les secrets d'Édimbourg.",
+      "prix": 3700,
+      "duree": 6,
+      "date_depart": "2025-04-25",
+      "date_creation": "2024-06-15",
+      "image": "jk_rowling.jpg",
+      "note_moyenne": 2.5,
+      "etapes": [
+        {
+          "id": 13,
+          "titre": "Édimbourg - Le Berceau de la Magie",
+          "description": "Visitez les cafés et les lieux qui ont inspiré JK Rowling pour écrire Harry Potter.",
+          "jour_debut": 1,
+          "jour_fin": 6,
+          "options_hebergement": [
+            {
+              "id": 25,
+              "titre": "Hébergement standard",
+              "description": "Hôtel 3 étoiles dans la vieille ville",
+              "prix": 85,
+              "default": true
+            },
+            {
+              "id": 26,
+              "titre": "Hébergement premium",
+              "description": "Château transformé en hôtel de luxe",
+              "prix": 190,
+              "default": false
+            }
+          ],
+          "options_restauration": [
+            {
+              "id": 25,
+              "titre": "Demi-pension",
+              "description": "Petit-déjeuner et dîner inclus",
+              "prix": 52,
+              "default": true
+            },
+            {
+              "id": 26,
+              "titre": "Pension complète",
+              "description": "Tous les repas inclus (cuisine écossaise)",
+              "prix": 78,
+              "default": false
+            }
+          ],
+          "options_activites": [
+            {
+              "id": 25,
+              "titre": "Visite guidée des lieux Harry Potter",
+              "description": "Découvrez les inspirations de JK Rowling",
+              "prix": 58,
+              "default": true
+            },
+            {
+              "id": 26,
+              "titre": "Cours de potion",
+              "description": "Participez à un atelier de fabrication de potions",
+              "prix": 105,
+              "default": false
+            }
+          ],
+          "options_transport": [
+            {
+              "id": 23,
+              "titre": "Bus touristique",
+              "description": "Forfait bus touristique",
+              "prix": 28,
+              "default": true
+            },
+            {
+              "id": 24,
+              "titre": "Voiture de collection",
+              "description": "Location d'une voiture de collection",
+              "prix": 135,
+              "default": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "titre": "Albert Einstein, Allemagne",
+      "destination": "Berlin, Allemagne",
+      "description": "Explorez le génie scientifique : des origines à Ulm aux laboratoires de Berlin, suivez le parcours révolutionnaire d'Einstein.",
+      "prix": 4200,
+      "duree": 7,
+      "date_depart": "2024-09-15",
+      "date_creation": "2024-05-01",
+      "image": "einstein-allemagne.jpg",
+      "note_moyenne": 3,
+      "etapes": [
+          {
+              "id": 10,
+              "titre": "Sur les Traces du Génie",
+              "description": "Découvrez les lieux qui ont marqué la vie d'Albert Einstein.",
+              "jour_debut": 1,
+              "jour_fin": 7,
+              "options_hebergement": [
+                  {
+                      "id": 19,
+                      "titre": "Hébergement standard",
+                      "description": "Hôtel 4 étoiles près de l'Université Humboldt",
+                      "prix": 130,
+                      "default": true
+                  },
+                  {
+                      "id": 20,
+                      "titre": "Hébergement premium",
+                      "description": "Appartement historique avec bibliothèque scientifique",
+                      "prix": 260,
+                      "default": false
+                  }
+              ],
+              "options_restauration": [
+                  {
+                      "id": 19,
+                      "titre": "Demi-pension",
+                      "description": "Petit-déjeuner et dîner inclus (cuisine allemande)",
+                      "prix": 70,
+                      "default": true
+                  },
+                  {
+                      "id": 20,
+                      "titre": "Pension complète",
+                      "description": "Tous les repas inclus (dîners dans des universités historiques)",
+                      "prix": 110,
+                      "default": false
+                  }
+              ],
+              "options_activites": [
+                  {
+                      "id": 19,
+                      "titre": "Visite du Musée Einstein à Ulm",
+                      "description": "Exploration détaillée de la vie et de l'œuvre d'Einstein",
+                      "prix": 75,
+                      "default": true
+                  },
+                  {
+                      "id": 20,
+                      "titre": "Atelier de physique théorique",
+                      "description": "Masterclass avec des physiciens contemporains",
+                      "prix": 160,
+                      "default": false
+                  }
+              ],
+              "options_transport": [
+                  {
+                      "id": 17,
+                      "titre": "Train allemand",
+                      "description": "Pass de train entre Ulm et Berlin",
+                      "prix": 50,
+                      "default": true
+                  },
+                  {
+                      "id": 18,
+                      "titre": "Voiture privée avec guide scientifique",
+                      "description": "Transport privé entre les sites historiques",
+                      "prix": 200,
+                      "default": false
+                  }
+              ]
+          }
+      ]
+  },
+  {
+    "id": 14,
+    "titre": "Pablo Picasso, Racines Andalouses",
+    "destination": "Málaga",
+    "description": "Un voyage immersif dans les racines artistiques de Pablo Picasso, explorant sa ville natale et son héritage andalou.",
+    "prix": 4600,
+    "duree": 7,
+    "date_depart": "2024-10-01", 
+    "date_creation": "2024-05-01",
+    "image": "picasso-malaga.jpg",
+    "note_moyenne": 2.5,
+    "etapes": [
+        {
+            "id": 12,
+            "titre": "Sur les Traces de Picasso à Málaga",
+            "description": "Découvrez les origines et l'inspiration du génie artistique de Pablo Picasso.",
+            "jour_debut": 1,
+            "jour_fin": 7,
+            "options_hebergement": [
+                {
+                    "id": 23,
+                    "titre": "Hébergement standard",
+                    "description": "Hôtel 4 étoiles dans le quartier historique de Málaga",
+                    "prix": 130,
+                    "default": true
+                },
+                {
+                    "id": 24,
+                    "titre": "Hébergement premium",
+                    "description": "Suite de luxe avec vue sur le Musée Picasso de Málaga",
+                    "prix": 270,
+                    "default": false
+                }
+            ],
+            "options_restauration": [
+                {
+                    "id": 23,
+                    "titre": "Demi-pension",
+                    "description": "Petit-déjeuner et dîner inclus (cuisine andalouse traditionnelle)",
+                    "prix": 70,
+                    "default": true
+                },
+                {
+                    "id": 24,
+                    "titre": "Pension complète",
+                    "description": "Tous les repas inclus avec dégustation de spécialités culinaires de la région de Málaga",
+                    "prix": 110,
+                    "default": false
+                }
+            ],
+            "options_activites": [
+                {
+                    "id": 23,
+                    "titre": "Visite complète du Musée Picasso de Málaga",
+                    "description": "Exploration approfondie de la collection permanente du musée dans la maison natale de Picasso",
+                    "prix": 85,
+                    "default": true
+                },
+                {
+                    "id": 24,
+                    "titre": "Atelier de création cubiste",
+                    "description": "Masterclass de peinture cubiste animée par un expert de l'œuvre de Picasso, dans un atelier historique",
+                    "prix": 160,
+                    "default": false
+                }
+            ],
+            "options_transport": [
+                {
+                    "id": 21,
+                    "titre": "Transport local",
+                    "description": "Pass de transport à Málaga, incluant accès aux sites picassiens",
+                    "prix": 50,
+                    "default": true
+                },
+                {
+                    "id": 22,
+                    "titre": "Voiture privée avec guide artistique",
+                    "description": "Transport privatif avec guide spécialisé dans la vie et l'œuvre de Picasso",
+                    "prix": 210,
+                    "default": false
+                }
+            ]
+        }
+    ]
+}, 
+{
+  "id": 14,
+  "titre": "Greta Thunberg, Voyage Climatique",
+  "destination": "Stockholm et Arctique Suédois",
+  "description": "Un voyage immersif dans les origines et l'engagement de Greta Thunberg pour le climat, explorant ses racines et son combat environnemental.",
+  "prix": 4600,
+  "duree": 7,
+  "date_depart": "2024-10-01",
+  "date_creation": "2024-05-01",
+  "image": "greta-thunberg-voyage.jpg",
+  "note_moyenne": 2.5,
+  "etapes": [
+      {
+          "id": 12,
+          "titre": "Sur les Traces de l'Activisme Climatique",
+          "description": "Découvrez le parcours et l'engagement de Greta Thunberg pour la protection de l'environnement.",
+          "jour_debut": 1,
+          "jour_fin": 7,
+          "options_hebergement": [
+              {
+                  "id": 23,
+                  "titre": "Hébergement standard",
+                  "description": "Hôtel éco-responsable à Stockholm avec certification environnementale",
+                  "prix": 130,
+                  "default": true
+              },
+              {
+                  "id": 24,
+                  "titre": "Hébergement premium",
+                  "description": "Éco-lodge dans l'Arctique suédois, construit selon les principes du développement durable",
+                  "prix": 270,
+                  "default": false
+              }
+          ],
+          "options_restauration": [
+              {
+                  "id": 23,
+                  "titre": "Demi-pension",
+                  "description": "Repas végétaliens, locaux et à faible impact carbone",
+                  "prix": 70,
+                  "default": true
+              },
+              {
+                  "id": 24,
+                  "titre": "Pension complète",
+                  "description": "Tous les repas bio, végétaliens, avec ateliers de sensibilisation à l'alimentation durable",
+                  "prix": 110,
+                  "default": false
+              }
+          ],
+          "options_activites": [
+              {
+                  "id": 23,
+                  "titre": "Visite du Parlement Suédois",
+                  "description": "Découverte du lieu du premier mouvement de Greta Thunberg, Skolstrejk för klimatet",
+                  "prix": 85,
+                  "default": true
+              },
+              {
+                  "id": 24,
+                  "titre": "Atelier d'activisme climatique",
+                  "description": "Masterclass avec des militants environnementaux, simulation de stratégies de mobilisation",
+                  "prix": 160,
+                  "default": false
+              }
+          ],
+          "options_transport": [
+              {
+                  "id": 21,
+                  "titre": "Transport local zéro émission",
+                  "description": "Déplacements en transports électriques et vélos à Stockholm et dans l'Arctique",
+                  "prix": 50,
+                  "default": true
+              },
+              {
+                  "id": 22,
+                  "titre": "Transport privé écologique",
+                  "description": "Véhicules électriques avec guide spécialiste du changement climatique",
+                  "prix": 210,
+                  "default": false
+              }
+          ]
+      }
+  ]
+},
+{
+    "id": 14,
+    "titre": "Christine Lagarde, Parcours Parisien",
+    "destination": "Paris",
+    "description": "Un voyage immersif dans le parcours professionnel de Christine Lagarde à Paris, explorant son influence économique et politique française.",
+    "prix": 4600,
+    "duree": 7,
+    "date_depart": "2024-10-01",
+    "date_creation": "2024-05-01",
+    "image": "christine-lagarde-paris.jpg",
+    "note_moyenne": 3,
+    "etapes": [
+        {
+            "id": 12,
+            "titre": "Les Racines Parisiennes du Leadership",
+            "description": "Découvrez le parcours de Christine Lagarde dans la capitale française.",
+            "jour_debut": 1,
+            "jour_fin": 7,
+            "options_hebergement": [
+                {
+                    "id": 23,
+                    "titre": "Hébergement standard",
+                    "description": "Hôtel 4 étoiles dans le quartier des ministères à Paris",
+                    "prix": 130,
+                    "default": true
+                },
+                {
+                    "id": 24,
+                    "titre": "Hébergement premium",
+                    "description": "Suite de luxe avec vue sur la Seine et proximité des institutions financières",
+                    "prix": 270,
+                    "default": false
+                }
+            ],
+            "options_restauration": [
+                {
+                    "id": 23,
+                    "titre": "Demi-pension",
+                    "description": "Petit-déjeuner et dîner gastronomique dans des restaurants historiques parisiens",
+                    "prix": 70,
+                    "default": true
+                },
+                {
+                    "id": 24,
+                    "titre": "Pension complète",
+                    "description": "Tous les repas inclus avec rencontres et conférences économiques",
+                    "prix": 110,
+                    "default": false
+                }
+            ],
+            "options_activites": [
+                {
+                    "id": 23,
+                    "titre": "Visite du Ministère de l'Économie",
+                    "description": "Visite exclusive des locaux où Christine Lagarde a exercé ses fonctions de ministre",
+                    "prix": 85,
+                    "default": true
+                },
+                {
+                    "id": 24,
+                    "titre": "Atelier de leadership économique",
+                    "description": "Masterclass avec des experts économiques sur le parcours de Christine Lagarde",
+                    "prix": 160,
+                    "default": false
+                }
+            ],
+            "options_transport": [
+                {
+                    "id": 21,
+                    "titre": "Transport local",
+                    "description": "Pass de transport dans Paris, accès aux sites institutionnels",
+                    "prix": 50,
+                    "default": true
+                },
+                {
+                    "id": 22,
+                    "titre": "Transport privé VIP",
+                    "description": "Voiture privée avec chauffeur et guide spécialiste de l'économie française",
+                    "prix": 210,
+                    "default": false
+                }
+            ]
+        }
+    ]
+}
+  ]
+  

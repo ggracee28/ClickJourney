@@ -1,0 +1,174 @@
+/* STYLE COMPLET PANIER */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #333;
+    --highlight-color: #ff4500;
+    --background-color: #f4f4f4;
+    --card-shadow: rgba(0, 0, 0, 0.1);
+    --button-hover-color: #0056b3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+}
+
+/* Section principale */
+.section {
+    padding: 6rem 2rem;
+    background: white;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-title h2 {
+    font-size: 2.8rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.section-title p {
+    color: gray;
+    font-size: 1.3rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Conteneur du panier */
+.panier-list {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Carte de voyage */
+.voyage-item {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px var(--card-shadow);
+    padding: 1.5rem;
+    overflow: hidden;
+    transition: transform 0.3s;
+    align-items: center;
+}
+
+.voyage-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Image du voyage */
+.voyage-image {
+    flex: 0 0 200px;
+    margin-right: 2rem;
+}
+
+.voyage-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Informations du voyage */
+.voyage-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.voyage-info h2 {
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.voyage-info p {
+    color: gray;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.voyage-info .price {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Actions sur chaque voyage */
+.voyage-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: auto;
+}
+
+.view-btn,
+.remove-btn {
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.view-btn:hover,
+.remove-btn:hover {
+    background-color: var(--button-hover-color);
+}
+
+.remove-btn {
+    background-color: var(--highlight-color);
+}
+
+.remove-btn:hover {
+    background-color: #ff0000;
+}
+
+/* Si le panier est vide */
+.panier-empty {
+    text-align: center;
+    font-size: 1.5rem;
+    color: gray;
+}
+
+/* Pagination */
+.pagination {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.pagination a {
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.pagination a:hover {
+    background-color: var(--button-hover-color);
+}
+
+.pagination .active {
+    background-color: var(--highlight-color);
+    pointer-events: none;
+}
+
